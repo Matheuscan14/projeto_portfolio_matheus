@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.men{
+    display: flex;
+    justify-content: end; 
+    background-color: rgb(0, 0, 0);  
+   
+}
+.men ul{
+    width: 25%;
+    display: flex;
+    list-style: none;
+    color: #000000;
+    margin: 20px 50px; 
+}
+
+.meu ul li{
+    font-family: century;
+    font-size: 1.1rem; 
+    font-weight: bold;
+   
+}
+
+.men ul li a{
+    text-decoration: none;
+    font-size: 40px;
+    color: rgb(247, 247, 247);
+    padding:  10px 70px;
+    transition: all .5s ease;
+}
+
+.men ul li a:hover{
+    background-color: rgb(81, 255, 0);
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+
+#titulo{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+ #titulo.main{
+    position: relative;
+    max-width: 400px;
+    margin-right: 20px;
+     width: 29%;
+     
+}
+
+#titulo .main h2{
+    color: #ffffff;
+    font-size: 2em;
+    margin-bottom: 80px;
+    line-height: 2.5em;
+    font-weight: 700;
+}
+#titulo .main h2 span{
+    font-size: 3.0em;
+    color: #5bf800
+}
